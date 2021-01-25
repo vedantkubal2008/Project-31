@@ -29,7 +29,7 @@ function draw(){
     Engine.update(engine);
  
     for(var i =0;i<maxDrops;i++){
-        //drops.push(new Drops(random(0,400),random(0,400)));
+      
         drops[i].display();
         drops[i].update_y();
     }
