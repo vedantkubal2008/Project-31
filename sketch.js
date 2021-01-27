@@ -41,7 +41,7 @@ function draw(){
 function Thunder(){
     rand=Math.round(random(1,4));
     if (frameCount%80===0){
-        thunderCreatedFrame=frameCount;
+       
         thunder =createSprite(random(10,370),random(10,30),10,10);
         switch(rand){
             case 1: thunder.addImage(thunder1);
